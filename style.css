@@ -593,3 +593,47 @@ button{
     box-shadow:0 0 20px #38bdf8;
     z-index:9999;
 }
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero img {
+    width: 180px;
+    height: 180px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 250px;
+  }
+}
